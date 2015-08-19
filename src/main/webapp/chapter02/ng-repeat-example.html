@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html ng-app="notesApp" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Notes App</title>
+</head>
+<body ng-controller="MainCtrl as ctrl">
+
+    <div ng-repeat="note in ctrl.notes">
+        <span class="label"> {{ note.label }}</span> <!-- Same as ng-bind, but take more time to load -->
+        <span class="status" ng-bind="note.done"></span> <!-- Same as {{  }}, is resource friendly -->
+    </div>
+
+    <script
+        src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.js">
+    </script>
+    <script
+        type="text/javascript">
+        angular.module('notesApp', [])
+                .controller('MainCtrl', [function() {
+                    var self = this;
+                    self.notes = [
+                        {id: 1, label: 'First Note', done: false},
+                        {id: 2, label: 'Second Note', done: false},
+                        {id: 3, label: 'Third Note', done: false},
+                        {id: 4, label: 'Fourth Note', done: false}
+                    ];
+                }]);
+    </script>
+
+</body>
+</html>
