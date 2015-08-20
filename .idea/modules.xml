@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/AngularJS_UpAndRunning.iml" filepath="$PROJECT_DIR$/AngularJS_UpAndRunning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/angularjs_upandrunning.iml" filepath="$PROJECT_DIR$/angularjs_upandrunning.iml" />
     </modules>
   </component>
 </project>
