@@ -4,13 +4,13 @@
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="angularjs_upandrunning" />
+          <element id="module-output" name="AngularJS_UpAndRunning" />
         </element>
       </element>
       <element id="directory" name="META-INF">
         <element id="file-copy" path="$PROJECT_DIR$/target/AnularJS_UpAndRunning/META-INF/MANIFEST.MF" />
       </element>
-      <element id="javaee-facet-resources" facet="angularjs_upandrunning/web/Web" />
+      <element id="javaee-facet-resources" facet="AngularJS_UpAndRunning/web/Web" />
     </root>
   </artifact>
 </component>
